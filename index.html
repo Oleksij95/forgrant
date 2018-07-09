@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>OptimizedHTML 4</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<!-- Custom HTML -->
+	<nav>
+		<ul>
+			<li><a href="#contact_info" class="nav_a">Личная информация</a></li>
+			<li><a href="#skill">Опыт</a></li>
+			<li><a href="#about_me">О себе</a></li>
+		</ul>
+	</nav>
+
+	<header>
+		<h1>Анкета</h1>
+	</header>
+
+	<section id="contact_info">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<img src="img/personal_info.png" alt="alt" class="section_ico">
+					<h2>Личная информация</h2>
+				</div>
+			</div>
+			<div class="row justify-content-sm-center">
+				<div class="col-md-6">
+					<div class="form-item">
+						<input type="text" class="form-input user_name" required>
+						<label class="form-label">ФИО</label>
+					</div>
+
+					<div class="form-item">
+						<input type="text" class="form-input" required>
+						<label class="form-label">Место проживания</label>
+					</div>
+
+					<div class="form-item">
+						<input type="text" class="form-input" required>
+						<label class="form-label">Год рождения</label>
+					</div>
+
+					 <div class="form-group form-item">
+					    <select class="form-control" id="exampleFormControlSelect1">
+					      <option disabled selected="">Год рождения</option>
+					      <option>1998</option>
+					      <option>1997</option>
+					      <option>1996</option>
+					      <option>1995</option>
+					      <option>1994</option>
+					      <option>1993</option>
+					      <option>1992</option>
+					    </select>
+					  </div>
+
+					<div class="form-item">
+						<input type="text" class="form-input" required>
+						<label class="form-label">Skype</label>
+					</div>
+
+					<div class="form-item">
+						<input type="text" class="form-input" required>
+						<label class="form-label">E-mail</label>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="skill">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col">
+					<img src="img/skill.png" alt="alt" class="section_ico">
+					<h2>Расскажите о своем опыте</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<ul>
+						<li>
+							<input type="checkbox" required="" value="cashondelivery" name="Bem" id="Bem">
+                    		<label for="Bem" class="select_entranc">БЭМ/OOCSS</label>
+						</li>
+						<li>
+							<input type="checkbox" required="" value="cashondelivery" name="SASS" id="SASS">
+                    		<label for="SASS" class="select_entranc">Stylus/LESS/SASS</label>
+						</li>
+						<li>
+							<input type="checkbox" required="" value="cashondelivery" name="SVG" id="SVG">
+                    		<label for="SVG" class="select_entranc">Работаю с SVG</label>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul>
+						<li>
+							<input type="checkbox" required="" value="cashondelivery" name="semantically" id="semantically">
+                    		<label for="semantically" class="select_entranc">Верстаю семантично</label>
+						</li>
+						<li>
+							<input type="checkbox" required="" value="cashondelivery" name="ES" id="ES">
+                    		<label for="ES" class="select_entranc">ES2015/ES2016</label>
+						</li>
+						<li>
+							<input type="checkbox" required="" value="cashondelivery" name="Gulp" id="Gulp">
+                    		<label for="Gulp" class="select_entranc">Gulp/GRUNT</label>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul>
+						<li>
+							<input type="checkbox" required="" value="cashondelivery" name="Webpack" id="Webpack">
+                    		<label for="Webpack" class="select_entranc">Webpack</label>
+						</li>
+						<li>
+							<input type="checkbox" required="" value="cashondelivery" name="jQuery" id="jQuery">
+                    		<label for="jQuery" class="select_entranc">jQuery</label>
+						</li>
+						<li>
+							<input type="checkbox" required="" value="cashondelivery" name="Git" id="Git">
+                    		<label for="Git" class="select_entranc">Git</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="about_me">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col">
+					<img src="img/skill.png" alt="alt" class="section_ico">
+					<h2>Расскажите о себе</h2>
+					<p>Напишите несколько предложений, чем привлекла наша вакансия <br>и что вы ожидаете от работы у нас.</p>
+					<textarea name="" id="" cols="30" rows="10" placeholder="Понравилась тем, что..."></textarea> <br>
+					<button class="btn">Готово</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
+
+
+<!-- <input type="text" placeholder="ФИО" class="user_name">
+					
+		
+
+
+
+			
+
+
+
+
